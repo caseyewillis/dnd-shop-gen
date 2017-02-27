@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Dungeons and Dragons 5e - Random Shop Inventory</title>
+		<meta name="description" content="Dungeons and Dragons 5e - Random Shop Inventory" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Sticky Table Headers <em>Revisited</em> <span>Creating functional and flexible sticky table headers</span></h1>	
+				<nav class="codrops-demos">
+					<a class="current-demo" href="index.html" title="Basic Usage">Basic Usage</a>
+					<a href="index2.html" title="Biaxial Headers">Biaxial Headers</a>
+					<a href="index3.html" title="Wide Tables">Wide Tables</a>
+				</nav>
+			</header>
+			<div class="component">
+				<h2>Basic usage</h2>
+				<p>This is a basic usage example. Scroll down to see the sticky table header in action. And of course, multiple instances are supported. Tables are pre-populated with random user data retrieved from the <a href="http://randomuser.me/" title="Random User Generator">Random User Generator</a>.</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Item</th>
+							<th>Type</th>
+							<th>Weight</th>
+							<th>Cost</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td class="user-name" id="itemname1"></td><td class="user-email" id="type1"></td><td class="user-phone" id="weight1"></td><td class="user-mobile" id="cost1"></td></tr>
+						<tr><td class="user-name" id="itemname2"></td><td class="user-email" id="type2"></td><td class="user-phone" id="weight2"></td><td class="user-mobile" id="cost2"></td></tr>
+						<tr><td class="user-name" id="itemname1"></td><td class="user-email" id="type1"></td><td class="user-phone" id="weight1"></td><td class="user-mobile" id="cost1"></td></tr>
+						<tr><td class="user-name" id="itemname2"></td><td class="user-email" id="type2"></td><td class="user-phone" id="weight2"></td><td class="user-mobile" id="cost2"></td></tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</div><!-- /container -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+		<script src="js/jquery.stickyheader.js"></script>
+		<script src="js/adventuringgear.js"></script>
+	</body>
+</html>
